@@ -36,7 +36,7 @@ $(function() {
       maintainAspectRatio: true,
       title: {
         display: true,
-        text: "List of Foods By Energy Required to Produce One Pound",
+        text: "Facts",
         fontSize: 18
       },
       scales: {
@@ -55,16 +55,27 @@ $(function() {
       }
     },
     data: {
-      labels: ["Corn", "Milk", "Apples", "Eggs", "Chicken", "Cheese", "Pork", "Beef"],
-      datasets: [{
-        label: "Dataset #1",
-        backgroundColor: "rgba(211, 164, 36,0.2)",
-        borderColor: "rgba(211, 164, 36,1)",
-        borderWidth: 2,
-        hoverBackgroundColor: "rgba(211, 164, 36,0.4)",
-        hoverBorderColor: "rgba(211, 164, 36,1)",
-        data: [0.43, 0.75, 1.67, 4, 4.4, 6.75, 12.6, 31.5]
-      }]
+      labels: ["2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016"],
+      datasets: [
+        {
+          label: "Number of Seaweed Plants",
+          backgroundColor: "rgba(211, 164, 36,0.2)",
+          borderColor: "rgba(211, 164, 36,1)",
+          borderWidth: 2,
+          hoverBackgroundColor: "rgba(211, 164, 36,0.4)",
+          hoverBorderColor: "rgba(211, 164, 36,1)",
+          data: [6750, 300, 167, 400, 410, 375, 216, 315],
+        },
+        {
+          label: "Number",
+          backgroundColor: "rgba(211, 164, 36,0.2)",
+          borderColor: "rgba(211, 164, 36,1)",
+          borderWidth: 2,
+          hoverBackgroundColor: "rgba(77, 144, 254,0.4)",
+          hoverBorderColor: "rgba(77, 144, 254,1)",
+          data: [670, 30, 17, 40, 41, 35, 26, 35],
+        }
+      ]
     }
   });
 
