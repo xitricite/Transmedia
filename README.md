@@ -19,4 +19,4 @@ Part of a class project about the 2009 _[Montara Oil Spill](https://en.wikipedia
   - A [text adventure creator](https://twinery.org/) that can be hosted on [philome.la](https://philome.la) with Twitter
 
 #### Source
-Fork of (Devilish Alchemist's)[https://codepen.io//devilishalchemist/] (Pen %mdash; Offcanvas sidebar menu with a twist)[https://codepen.io/devilishalchemist/details/LERvpM#forks]
+Fork of [Devilish Alchemist's](https://codepen.io//devilishalchemist/) [Pen %mdash; Offcanvas sidebar menu with a twist](https://codepen.io/devilishalchemist/details/LERvpM#forks)
